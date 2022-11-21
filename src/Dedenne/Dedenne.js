@@ -16,7 +16,7 @@ function Dedenne () {
     const [statoBottone, modificaBottone] = useState(false);
 
     function commutaBottone () {
-        modificaBottone=(!statoBottone);
+        modificaBottone(!statoBottone);
     }
 
     return (
