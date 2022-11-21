@@ -1,11 +1,11 @@
-import Pikachu from "./Pikachu"
-import Pincurchin from "./Pincurchin";
-import Pyukumuku from "./Pyukumuku";
-import Dedenne from "./Dedenne";
-import Lechonk from "./Lechonk";
-import Smoliv from "./Smoliv";
-import Araquanid from "./Araquanid";
-import Tyrogue from "./Tyrogue";
+import Pikachu from "./Pikachu/Pikachu"
+import Pincurchin from "./Pincurchin/Pincurchin";
+import Pyukumuku from "./Pyukumuku/Pyukumuku";
+import Dedenne from "./Dedenne/Dedenne";
+import Lechonk from "./Lechonk/Lechonk";
+import Smoliv from "./Smoliv/Smoliv";
+import Araquanid from "./Araquanid/Araquanid";
+import Tyrogue from "./Tyrogue/Tyrogue";
 
 
 function App() {

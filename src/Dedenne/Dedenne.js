@@ -2,10 +2,10 @@ import ImgDedenne from "./ImgDedenne";
 import TitoloDedenne from "./TitoloDedenne";
 import DescrizioneDedenne from "./DescrizioneDedenne";
 import AttaccoDedenne from "./AttaccoDedenne";
-import "./Pokemon.css"
+import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 
-function Pikachu () {
+function Dedenne () {
     return (
         <div className="Card">
         <div className="Title"><TitoloDedenne></TitoloDedenne></div>
@@ -17,4 +17,4 @@ function Pikachu () {
     );
 }
 
-export default Pikachu;
+export default Dedenne;

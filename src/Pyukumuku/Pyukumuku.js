@@ -2,7 +2,7 @@ import ImgPyukumuku from "./ImgPyukumuku";
 import TitoloPyukumuku from "./TitoloPyukumuku";
 import DescrizionePyukumuku from "./DescrizionePyukumuku";
 import AttaccoPyukumuku from "./AttaccoPyukumuku";
-import "./Pokemon.css"
+import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 
 function Pyukumuku () {

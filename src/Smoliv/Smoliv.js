@@ -2,7 +2,7 @@ import ImgSmoliv from "./ImgSmoliv";
 import TitoloSmoliv from "./TitoloSmoliv";
 import DescrizioneSmoliv from "./DescrizioneSmoliv";
 import AttaccoSmoliv from "./AttaccoSmoliv";
-import "./Pokemon.css"
+import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 
 function Smoliv () {

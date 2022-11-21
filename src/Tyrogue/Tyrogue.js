@@ -2,7 +2,7 @@ import ImgTyrogue from "./ImgTyrogue";
 import TitoloTyrogue from "./TitoloTyrogue";
 import DescrizioneTyrogue from "./DescrizioneTyrogue";
 import AttaccoTyrogue from "./AttaccoTyrogue";
-import "./Pokemon.css"
+import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 
 function Tyrogue () {

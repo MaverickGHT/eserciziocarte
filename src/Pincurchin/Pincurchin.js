@@ -2,7 +2,7 @@ import ImgPincurchin from "./ImgPincurchin.js";
 import TitoloPincurchin from "./TitoloPincurchin.js";
 import DescrizionePincurchin from "./DescrizionePincurchin.js";
 import AttaccoPincurchin from "./AttaccoPincurchin.js";
-import "./Pokemon.css"
+import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 
 function Pincurchin () {

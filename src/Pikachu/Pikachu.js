@@ -2,7 +2,7 @@ import ImgPikachu from "./ImgPikachu.js";
 import TitoloPikachu from "./TitoloPikachu.js";
 import DescrizionePikachu from "./DescrizionePikachu.js";
 import AttaccoPikachu from "./AttaccoPikachu.js";
-import "./Pokemon.css"
+import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 
 function Pikachu () {

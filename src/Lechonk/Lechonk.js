@@ -2,7 +2,7 @@ import TitoloLechonk from "./TitoloLechonk";
 import AttaccoLechonk from "./AttaccoLechonk";
 import DescrizioneLechonk from "./DescrizioneLechonk";
 import ImgLechonk from "./ImgLechonk";
-import "./Pokemon.css"
+import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 function Lechonk () {
     return (

@@ -2,7 +2,7 @@ import ImgAraquanid from "./ImgAraquanid";
 import TitoloAraquanid from "./TitoloAraquanid";
 import DescrizioneAraquanid from "./DescrizioneAraquanid";
 import AttaccoAraquanid from "./AttaccoAraquanid";
-import "./Pokemon.css"
+import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 
 function Araquanid () {
