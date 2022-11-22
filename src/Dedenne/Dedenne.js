@@ -1,7 +1,4 @@
-import ImgDedenne from "./ImgDedenne";
-import TitoloDedenne from "./TitoloDedenne";
-import DescrizioneDedenne from "./DescrizioneDedenne";
-import AttaccoDedenne from "./AttaccoDedenne";
+
 import Titolo from "../GenericComponents/Titolo";
 import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 import Descrizione from "../GenericComponents/Descrizione";
@@ -13,7 +10,7 @@ import {useState} from 'react';
 
 function Dedenne () {
 
-    const [statoBottone, modificaBottone] = useState(false);
+    const [statoBottone, modificaBottone] = useState(true);
 
     function commutaBottone () {
         modificaBottone(!statoBottone);
