@@ -20,12 +20,12 @@ const listaPokemon = [
         immagine: "https://media.pokemoncentral.it/wiki/thumb/6/6c/Artwork752_SL.png/200px-Artwork752_SL.png",
         attacco: "ATTACCO:70",
         stats : {
-            ps : 35,
-            attacco: 55,
-            difesa: 40,
+            ps : 68,
+            attacco: 70,
+            difesa: 92,
             attSp: 50,
-            difSp: 50,
-            velocita: 90
+            difSp: 132,
+            velocita: 42
         },
         descrizione: "Araquanid è simile ad un ragno. La testa è immersa in una bolla d'acqua e mostra tre protuberanze blu sulla fronte. Gli occhi sono blu. Ha sei zampe molto sottili, di colore verde e blu, che al posto dei legamenti presentano delle bolle d'acqua. Queste zampe si collegano al corpo, che è nero, con un segno marroncino sulla parte superiore e nella parte posteriore del corpo è presente un pungiglione verde."
     },
@@ -35,12 +35,12 @@ const listaPokemon = [
         immagine: "https://media.pokemoncentral.it/wiki/thumb/7/72/Artwork702_XY.png/200px-Artwork702_XY.png",
         attacco: "ATTACCO:58",
         stats : {
-            ps : 35,
-            attacco: 55,
-            difesa: 40,
-            attSp: 50,
-            difSp: 50,
-            velocita: 90
+            ps : 67,
+            attacco: 58,
+            difesa: 57,
+            attSp: 81,
+            difSp: 67,
+            velocita: 101
         },
         descrizione: "Dedenne si presenta come un piccolo criceto di color arancio chiaro. Le sue orecchie sono all'insù e di due colori: l'esterno nero e l'interno giallo chiaro. Le zampe anteriori sono arancioni. La pancia è anch'essa di color giallo chiaro. Il corpo di Dedenne termina con due zampine arancioni dotate di tre dita. Presenta inoltre due guance di arancione più scuro con delle antenne che usa per comunicare con gli altri esemplari della sua specie e una coda nera che utilizza, inserendola in una presa di corrente, per ricaricarsi."
     },
@@ -50,12 +50,12 @@ const listaPokemon = [
         immagine: "https://media.pokemoncentral.it/wiki/thumb/4/46/Artwork915.png/200px-Artwork915.png",
         attacco: "ATTACCO:45",
         stats : {
-            ps : 35,
-            attacco: 55,
+            ps : 54,
+            attacco: 45,
             difesa: 40,
-            attSp: 50,
-            difSp: 50,
-            velocita: 90
+            attSp: 35,
+            difSp: 45,
+            velocita: 35
         },
         descrizione: "Lechonk è un piccolo porcellino nero. Ha una chiazza marrone che si estende sul viso e sulle orecchie e delle escrescenze gialle sotto gli occhi. Ha un muso rosa triangolare con delle enormi narici di forma ovale e dei piedi tozzi che terminano in piccoli zoccoli rosa. La sua coda è corta ed arricciata."
     },
@@ -65,12 +65,12 @@ const listaPokemon = [
         immagine: "https://media.pokemoncentral.it/wiki/thumb/c/ca/Artwork871_SpSc.png/200px-Artwork871_SpSc.png",
         attacco: "ATTACCO:101",
         stats : {
-            ps : 35,
-            attacco: 55,
-            difesa: 40,
-            attSp: 50,
-            difSp: 50,
-            velocita: 90
+            ps : 48,
+            attacco: 101,
+            difesa: 95,
+            attSp: 91,
+            difSp: 85,
+            velocita: 15
         },
         descrizione: "Pincurchin è un Pokémon marino simile a un riccio di mare con un corpo nero. Il suo viso ha due occhi gialli con pupille nere a forma di triangolo; e due guance gialle e tonde. Una serie di spine acuminate corre lungo la sua schiena e ai lati del corpo. Ogni spina ha una punta grigiastra che si illumina di giallo quando la corrente elettrica la attraversa."
     },
@@ -80,12 +80,12 @@ const listaPokemon = [
         immagine: "https://media.pokemoncentral.it/wiki/thumb/1/13/Artwork771_SL.png/200px-Artwork771_SL.png",
         attacco: "ATTACCO:60",
         stats : {
-            ps : 35,
-            attacco: 55,
-            difesa: 40,
-            attSp: 50,
-            difSp: 50,
-            velocita: 90
+            ps : 55,
+            attacco: 60,
+            difesa: 130,
+            attSp: 30,
+            difSp: 130,
+            velocita: 5
         },
         descrizione: "Pyukumuku è un piccolo Pokémon simile ad un cetriolo di mare. Il corpo è marrone scuro e di forma ovale ed è rivestito da sei punte color fucsia. Sul retro c'è una piccola coda a batuffolo, mentre il muso è composto da due occhietti dello stesso colore delle punte e da una piccola bocca di colore bianco."
     },
@@ -95,12 +95,12 @@ const listaPokemon = [
         immagine: "https://media.pokemoncentral.it/wiki/thumb/d/d2/Artwork935.png/200px-Artwork935.png",
         attacco: "ATTACCO:35",
         stats : {
-            ps : 35,
-            attacco: 55,
-            difesa: 40,
-            attSp: 50,
-            difSp: 50,
-            velocita: 90
+            ps : 41,
+            attacco: 35,
+            difesa: 45,
+            attSp: 58,
+            difSp: 51,
+            velocita: 30
         },
         descrizione: "Smoliv è un piccolo Pokémon simile ad un'oliva. Ha un corpo verde con delle minuscole gambe, gli occhi neri con le pupille bianche e la bocca a zig-zag. Sulla sommità della testa sono presenti delle foglie che circondano un piccolo frutto giallo nel quale Smoliv immagazzina il suo olio."
     },
@@ -111,11 +111,11 @@ const listaPokemon = [
         attacco: "ATTACCO:35",
         stats : {
             ps : 35,
-            attacco: 55,
-            difesa: 40,
-            attSp: 50,
-            difSp: 50,
-            velocita: 90
+            attacco: 35,
+            difesa: 35,
+            attSp: 35,
+            difSp: 35,
+            velocita: 35
         },
         descrizione: "Tyrogue ha aspetto di un lottatore con la pelle viola e un paio di pantaloncini e un paio di scarpe, entrambi marroni. Intorno alla vita e ai polsi ha delle fasciature di benda bianca, altra caratteristica che lo fa assomigliare ad un lottatore. Ha una cresta con tre punte sulla testa, mani con tre dita e gli occhi gialli."
     },
@@ -125,12 +125,12 @@ const listaPokemon = [
         immagine: "https://media.pokemoncentral.it/wiki/thumb/5/52/Artwork906.png/200px-Artwork906.png",
         attacco: "ATTACCO:61",
         stats : {
-            ps : 35,
-            attacco: 55,
-            difesa: 40,
-            attSp: 50,
-            difSp: 50,
-            velocita: 90
+            ps : 40,
+            attacco: 61,
+            difesa: 54,
+            attSp: 45,
+            difSp: 45,
+            velocita: 65
         },
         descrizione: "Sprigatito è un Pokémon felino quadrupede ricoperto di pelo verde chiaro. Ha orecchie verdi con l'interno verde pallido, un ciuffo di pelo sulla parte anteriore del petto e una macchia verde intorno agli occhi e al naso rosa che richiama la sagoma delle foglie. Vanta inoltre due denti appuntiti nella mascella superiore, una coda vaporosa e piccole zampe prive di dita visibili.Sprigatito è un Pokémon felino quadrupede ricoperto di pelo verde chiaro. Ha orecchie verdi con l'interno verde pallido, un ciuffo di pelo sulla parte anteriore del petto e una macchia verde intorno agli occhi e al naso rosa che richiama la sagoma delle foglie. Vanta inoltre due denti appuntiti nella mascella superiore, una coda vaporosa e piccole zampe prive di dita visibili."
     },
