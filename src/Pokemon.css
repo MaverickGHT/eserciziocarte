@@ -31,10 +31,26 @@
 }
 
 .Description {
-    
-    height: auto;
+    overflow: scroll;
+    height: 200px;
 }
 
 input {
     margin-left: 40px;
+}
+
+.Description::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+/* .Description::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+} */
+
+.Description::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    height: 10px;
 }
