@@ -4,7 +4,7 @@
     width: 220px;
     padding: 2px 16px;
     margin:auto;
-    height: auto;
+    height: 500px;
     display: inline-block;
     border: 1px solid black;
     margin-left: 5%;
@@ -32,7 +32,7 @@
 
 .Description {
     
-    height: 500px;
+    height: auto;
 }
 
 input {

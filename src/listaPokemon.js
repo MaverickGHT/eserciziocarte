@@ -55,6 +55,13 @@ const listaPokemon = [
         attacco: "ATTACCO:35",
         descrizione: "Tyrogue ha aspetto di un lottatore con la pelle viola e un paio di pantaloncini e un paio di scarpe, entrambi marroni. Intorno alla vita e ai polsi ha delle fasciature di benda bianca, altra caratteristica che lo fa assomigliare ad un lottatore. Ha una cresta con tre punte sulla testa, mani con tre dita e gli occhi gialli."
     },
+    {
+        id : " ",
+        nome : "Sprigatito",
+        immagine: "https://media.pokemoncentral.it/wiki/thumb/5/52/Artwork906.png/200px-Artwork906.png",
+        attacco: "ATTACCO:61",
+        descrizione: "Sprigatito è un Pokémon felino quadrupede ricoperto di pelo verde chiaro. Ha orecchie verdi con l'interno verde pallido, un ciuffo di pelo sulla parte anteriore del petto e una macchia verde intorno agli occhi e al naso rosa che richiama la sagoma delle foglie. Vanta inoltre due denti appuntiti nella mascella superiore, una coda vaporosa e piccole zampe prive di dita visibili.Sprigatito è un Pokémon felino quadrupede ricoperto di pelo verde chiaro. Ha orecchie verdi con l'interno verde pallido, un ciuffo di pelo sulla parte anteriore del petto e una macchia verde intorno agli occhi e al naso rosa che richiama la sagoma delle foglie. Vanta inoltre due denti appuntiti nella mascella superiore, una coda vaporosa e piccole zampe prive di dita visibili."
+    },
 ]
 
 
