@@ -2,7 +2,63 @@ import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 
 function Stats (props) {
     return (
-        <div>
+        <table>
+  <tr>
+    <td className="stats">PS:</td>   
+    <td style={{width: (props.ps/255)*100 + '%', background:"#58E810"}}>{props.ps}</td> </tr>  
+<tr>
+    <td className="stats">ATTACCO:</td>   
+    <td style={{width: (props.attacco/255)*100 + '%', background:"#EACA2F" }}>{props.attacco}</td> </tr> 
+<tr>    
+    <td className="stats">DIFESA:</td>   
+    <td style={{width: (props.difesa/255)*100 + '%', background:"#E5721D"}}>{props.difesa}</td> 
+     </tr>
+<tr>
+    <td className="stats">ATTSP:</td>   
+    <td style={{width: (props.attSp/255)*100 + '%', background:"#26BAE0"}}>{props.attSp}</td>
+  </tr>
+  <tr>
+    <td className="stats"> Maggio</td>   
+    <td style={{width: (props.difSp/255)*100 + '%', background:"#4C6CD4"}}>{props.difSp}</td></tr>
+    <tr>
+    <td className="stats"> Giugno</td>   
+    <td style={{width: (props.velocita/255)*100 + '%', background:"#D425CE"}}>{props.velocita}</td></tr>
+</table>
+    );
+}
+
+
+export default Stats;
+
+
+
+{/* <table>
+  <tr>
+    <td className="stats">PS:</td>   
+    <td style={{width: (props.ps/255)*100 + '%', background:"#58E810"}}>{props.ps}</td>  
+<tr>
+    <td className="stats">ATTACCO:</td>   
+    <td style={{width: (props.attacco/255)*100 + '%', background:"#EACA2F" }}>{props.attacco}</td> </tr> 
+<tr>    
+    <td className="stats">DIFESA:</td>   
+    <td style={{width: (props.difesa/255)*100 + '%', background:"#E5721D"}}>{props.difesa}</td> 
+     </tr>
+<tr>
+    <td className="stats">ATTSP:</td>   
+    <td style={{width: (props.attSp/255)*100 + '%', background:"#26BAE0"}}>{props.attSp}</td>
+  </tr>
+  <tr>
+    <td className="stats"> Maggio</td>   
+    <td style={{width: (props.difSp/255)*100 + '%', background:"#4C6CD4"}}>{props.difSp}</td></tr>
+    <tr>
+    <td className="stats"> Giugno</td>   
+    <td style={{width: (props.velocita/255)*100 + '%', background:"#D425CE"}}>{props.velocita}</td></tr>
+</table> */}
+
+
+
+
+{/* <div>
             <div className="stats"> PS:
             <div style={{width: (props.ps/255)*100 + '%', background:"#58E810"}}>{props.ps}</div>
             </div>
@@ -27,35 +83,4 @@ function Stats (props) {
             <div style={{width: (props.velocita/255)*100 + '%', background:"#D425CE"}}> {props.velocita}</div>
             </div>
 
-            </div>
-    );
-}
-
-
-export default Stats;
-
-
-
-{/* <table>
-  <tr>
-    <td className="stats">PS:</td>   
-    <td style={{width: (props.ps/255)*100 + '%', background:"#58E810"}}>{props.ps}</td>  
-<tr>
-    <td>Febbraio</td>   
-    <td> 02</td> </tr> 
-<tr>    
-    <td>Marzo</td>   
-    <td> 03</td> 
-     </tr>
-<tr>
-    <td> Aprile</td>   
-    <td> 04</td>
-    <td rowspan="3">Primavera <br> fino al 21/06</td>
-  </tr>
-  <tr>
-    <td> Maggio</td>   
-    <td> 05</td></tr>
-    <tr>
-    <td> Giugno</td>   
-    <td> 06</td></tr>
-</table> */}
+            </div> */}
