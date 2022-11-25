@@ -6,25 +6,25 @@ function Stats (props) {
             <tbody>
   <tr>
     <td className="stats">PS:</td>   
-    <td style={{width: (props.ps/255)*100 + '%', background:"#58E810"}}>{props.ps}</td> </tr>  
+    <td style={{width: "100%"}}><div style={{width: (props.ps/255)*100 + '%', background:"#58E810"}}>{props.ps}</div></td> </tr>  
 <tr>
     <td className="stats">ATTACCO:</td>   
-    <td style={{width: (props.attacco/255)*100 + '%', background:"#EACA2F"}}>{props.attacco}</td> </tr> 
+    <td style={{width: "100%"}}><div style={{width: (props.attacco/255)*100 + '%', background:"#EACA2F"}}>{props.attacco}</div></td> </tr> 
 <tr >    
     <td className="stats">DIFESA:</td>   
-    <td style={{width: (props.difesa/255)*100 + '%', background:"#E5721D"}}>{props.difesa}</td> 
+    <td style={{width: "100%"}}><div style={{width: (props.difesa/255)*100 + '%', background:"#E5721D"}}>{props.difesa}</div></td> 
      </tr>
 <tr>
     <td className="stats">ATTSP:</td>   
-    <td style={{width: (props.attSp/255)*100 + '%', background:"#26BAE0"}}>{props.attSp}</td>
+    <td style={{width: "100%"}}><div style={{width: (props.attSp/255)*100 + '%', background:"#26BAE0"}}>{props.attSp}</div></td>
   </tr>
   <tr>
     <td className="stats">DIFSP:</td>   
-    <td style={{width: (props.difSp/255)*100 + '%', background:"#4C6CD4"}}>{props.difSp}</td>
+    <td style={{width: "100%"}}><div style={{width: (props.difSp/255)*100 + '%', background:"#4C6CD4"}}>{props.difSp}</div></td>
     </tr>
     <tr>
     <td className="stats">VELOCITA':</td>   
-    <td style={{width: (props.velocita/255)*100 + '%', background:"#D425CE"}}>{props.velocita}</td>
+    <td style={{width: "100%"}} ><div style={{width: (props.velocita/255)*100 + '%', background:"#D425CE"}}>{props.velocita}</div></td>
     </tr>
     </tbody>
 </table>
