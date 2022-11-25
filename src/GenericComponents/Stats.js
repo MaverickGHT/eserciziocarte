@@ -1,4 +1,5 @@
 import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
+import "./Stats.css"
 
 function Stats (props) {
     return (

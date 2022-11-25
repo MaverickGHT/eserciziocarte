@@ -12,7 +12,7 @@ function Pokemon () {
 
     const [statoBottone, modificaBottone] = useState(true);
 
-    function commutaBottone () {
+    function commutaBottone (id) {
         modificaBottone(!statoBottone);
     }
 
