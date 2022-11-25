@@ -15,6 +15,8 @@
 .Title {
     text-align: center;
     border-bottom: 1px solid black;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
 }
 
 .Image {
@@ -59,3 +61,37 @@ input {
     font-size: 15px;
     font-family: fantasy;
 }
+
+h1 {
+    text-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    font-size: 70px;
+  font-weight: 600;
+  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.header {
+    background: url('https://img.pokemondb.net/images/featured/pokedex-frlg.png');
+	background-attachment: scroll;
+    text-align: center;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+    animation: animatedBackground 10s linear infinite alternate;
+}
+
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
