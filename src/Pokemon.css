@@ -77,8 +77,8 @@ h1 {
     background: url('https://img.pokemondb.net/images/featured/pokedex-frlg.png');
 	background-attachment: scroll;
     text-align: center;
-	width: auto;
-	height: auto;
+	width: 100%;
+	height: 600px;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
