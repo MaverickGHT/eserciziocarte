@@ -1,4 +1,39 @@
-div {
-    border-top-right-radius: .525rem;
-    border-bottom-right-radius: .525rem;
+.bar {
+    border-top-right-radius: .425rem;
+    border-bottom-right-radius: .425rem;
+    border-top-left-radius: .425rem;
+    border-bottom-left-radius: .425rem;
+    
+}
+
+td {
+    border-top-right-radius: .425rem;
+    border-bottom-right-radius: .425rem;
+    border-top-left-radius: .425rem;
+    border-bottom-left-radius: .425rem;
+    background-image: linear-gradient(to right, #E1FFD3, #c4f1ad);
+}
+
+.ps {
+    background-image: linear-gradient(to right, #E1FFD3, #58E810);
+}
+
+.att {
+    background-image: linear-gradient(to right, #FFFBE6, #EACA2F);
+}
+
+.dif {
+    background-image: linear-gradient(to right, #FFC499, #E5721D);
+}
+
+.attsp {
+    background-image: linear-gradient(to right, #B2E3EF, #26BAE0);
+}
+
+.difsp {
+    background-image: linear-gradient(to right, #9EB5FF, #4C6CD4);
+}
+
+.velocita {
+    background-image: linear-gradient(to right, #EF8DEC, #D425CE);
 }
