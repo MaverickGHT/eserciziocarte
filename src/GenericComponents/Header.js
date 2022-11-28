@@ -4,22 +4,7 @@ function Header () {
  return (
  <div  className="header">
     {/* <img src="https://i.pinimg.com/736x/f3/c5/96/f3c596489fd73d440609da96eeb9f58b--pokemon-rpg--pokemon.jpg"/> */}
-    <h1 class="text_shadows">IL POKEDEX</h1>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
+    <h1 className="text_shadows">IL POKEDEX</h1>
     </div>
  );
 }

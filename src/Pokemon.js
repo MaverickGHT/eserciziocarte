@@ -3,7 +3,7 @@ import "D:/ProgettiHTML/React/eserciziocarte/src/Pokemon.css"
 import Descrizione from "./GenericComponents/Descrizione";
 import Immagine from "./GenericComponents/Immagine";
 import Bottone from "./GenericComponents/Bottone";
-import {useState} from 'react';
+import {useState, useRef} from 'react';
 import listaPokemon from "./listaPokemon.js"
 import Stats from "./GenericComponents/Stats";
 import BottoneDescrizione from "./GenericComponents/BottoneDescrizione";
@@ -14,7 +14,9 @@ function Pokemon () {
     let key;
 
     const [statoBottone, modificaBottone] = useState(true);
-    const [statoDescrizione, modificaDescrizione] = useState(true);
+    const [statoDescrizione, modificaDescrizione] = useState(false);
+    const cerca = useRef("ciao");
+    const [statoRicerca, modificaStato]= useState("");
 
     function commutaBottone () {
         modificaBottone(!statoBottone);
@@ -25,10 +27,21 @@ function Pokemon () {
         
     }
 
+    function cercaPokemon (event) {
+        event.preventDefault();
+        let lower = cerca.current.value.toLowerCase();
+        modificaStato(lower);
+        console.log(statoRicerca);
+    }
+
     return (
         
         <div>
-            <div class="content"><Header/></div>
+            <div className="content"><Header/></div>
+            <form>
+                <input ref = {cerca} type="text" placeholder="cerca..." className="searchBox" onChange={cercaPokemon}></input>
+                <button onClick={cercaPokemon}><img src="https://cdn-icons-png.flaticon.com/512/3917/3917754.png" className="searchIcon"/></button>
+            </form>
             {listaPokemon.map((elemento) =>{
                 return(
                 <div className="Card">

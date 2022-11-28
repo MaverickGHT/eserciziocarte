@@ -1,6 +1,6 @@
 function Bottone (props) {
     return (
-        <input type="Button" value={props.bottone} onClick={props.clicca} id={props.id}/>
+        <input type="Button" defaultValue={props.bottone} onClick={props.clicca} id={props.id}/>
     );
 }
 

@@ -1,6 +1,6 @@
 function BottoneDescrizione (props) {
     return (
-        <input type="Button" value={props.bottone} onClick={props.clicca}/>
+        <input type="Button" defaultValue={props.bottone} onClick={props.clicca}/>
     );
 }
 
