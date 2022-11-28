@@ -11,7 +11,6 @@ import Header from "./GenericComponents/Header";
 
 
 function Pokemon () {
-    let key;
 
     const [statoBottone, modificaBottone] = useState(true);
     const [statoDescrizione, modificaDescrizione] = useState(false);
@@ -59,7 +58,7 @@ function Pokemon () {
             <div className="content"><Header/></div>
             <form>
                 <input ref = {cerca} type="text" placeholder="cerca..." className="searchBox" onChange={cercaPokemon}></input>
-                <button onClick={cercaPokemon}><img src="https://cdn-icons-png.flaticon.com/512/3917/3917754.png" className="searchIcon"/></button>
+                <button onClick={cercaPokemon}><img alt="" src="https://cdn-icons-png.flaticon.com/512/3917/3917754.png" className="searchIcon"/></button>
             </form>
             {listaPokemon.map((elemento) =>
              ricercaCondizionale(elemento.nome.toLowerCase()) || statoRicerca=== "" ? 

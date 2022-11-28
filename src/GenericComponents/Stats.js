@@ -7,10 +7,10 @@ function Stats (props) {
             <tbody>
   <tr>
     <td className="stats ps">PS:</td>   
-    <td style={{width: "100%"}} className="ps"><div style={{width: (props.ps/255)*100 + '%', background:"#58E810"}} className="bar">{props.ps}</div></td> </tr>  
+    <td style={{width: "100%"}} className="ps"><div style={{width: (props.ps/255)*100 + '%', background:"#58E810"}} className="bar">{props.ps}</div></td></tr>  
 <tr>
     <td className="stats att">ATTACCO:</td>   
-    <td style={{width: "100%"}} className="att"><div style={{width: (props.attacco/255)*100 + '%', background:"#EACA2F"}} className="bar">{props.attacco}</div></td> </tr> 
+    <td style={{width: "100%"}} className="att"><div style={{width: (props.attacco/255)*100 + '%', background:"#EACA2F"}} className="bar">{props.attacco}</div></td></tr> 
 <tr >    
     <td className="stats dif">DIFESA:</td>   
     <td style={{width: "100%"}} className="dif"><div style={{width: (props.difesa/255)*100 + '%', background:"#E5721D"}} className="bar">{props.difesa}</div></td> 
