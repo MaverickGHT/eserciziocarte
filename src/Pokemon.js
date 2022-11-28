@@ -15,7 +15,7 @@ function Pokemon () {
 
     const [statoBottone, modificaBottone] = useState(true);
     const [statoDescrizione, modificaDescrizione] = useState(false);
-    const cerca = useRef("ciao");
+    const cerca = useRef("");
     const [statoRicerca, modificaStato]= useState("");
 
     function commutaBottone () {
@@ -34,6 +34,25 @@ function Pokemon () {
         console.log(statoRicerca);
     }
 
+    function ricercaCondizionale (name) {
+        let nome = name.split("");
+        
+        for (let i=0; i<nome.length; i++) {
+            for (let j=i+1; j<nome.length; j++) {
+                if (statoRicerca=== name.substring(i, j)) {
+                    return true;
+                }
+            }
+        }
+
+        if (name === statoRicerca) {
+            return true;
+        }
+
+
+
+    }
+
     return (
         
         <div>
@@ -42,18 +61,19 @@ function Pokemon () {
                 <input ref = {cerca} type="text" placeholder="cerca..." className="searchBox" onChange={cercaPokemon}></input>
                 <button onClick={cercaPokemon}><img src="https://cdn-icons-png.flaticon.com/512/3917/3917754.png" className="searchIcon"/></button>
             </form>
-            {listaPokemon.map((elemento) =>{
-                return(
+            {listaPokemon.map((elemento) =>
+             ricercaCondizionale(elemento.nome.toLowerCase()) || statoRicerca=== "" ? 
+                (
                 <div className="Card">
         <div className="Title"><Titolo titolo={elemento.nome}/></div>
         <div className="Image"><Immagine immagine={elemento.immagine}/></div>
         <div className="ATK"><Stats ps={elemento.stats.ps} attacco={elemento.stats.attacco} difesa={elemento.stats.difesa} attSp={elemento.stats.attSp} difSp={elemento.stats.difSp} velocita={elemento.stats.velocita}/></div>
-        <BottoneDescrizione key={elemento.id} bottone="Descrizione" clicca={() => {commutaDescrizione()}}/>
+        <BottoneDescrizione id={elemento.id} bottone="Descrizione" clicca={() => {commutaDescrizione()}}/>
         {statoDescrizione ? <div className="Description"> <Descrizione descrizione={elemento.descrizione}/></div> : null } 
         {statoBottone ? <Bottone id={elemento.id} bottone="Cattura!!" clicca={commutaBottone}/> : 
                         <Bottone id={elemento.id} bottone="Libera!!" clicca={commutaBottone}/>}
         
-         </div> )})}
+         </div> )  : null )}
          
         </div>
     );
