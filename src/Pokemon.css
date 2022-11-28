@@ -62,19 +62,12 @@ input {
     font-family: fantasy;
 }
 
-h1 {
-    text-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    text-align: center;
-    font-size: 70px;
-  font-weight: 600;
-  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
+
 
 .header {
     background: url('https://img.pokemondb.net/images/featured/pokedex-frlg.png');
+    --background : url('https://img.pokemondb.net/images/featured/pokedex-frlg.png');
+
 	background-attachment: scroll;
     text-align: center;
 	width: 100%;
@@ -85,6 +78,7 @@ h1 {
 	overflow: hidden;
 	border-radius: 0 0 85% 85% / 30%;
     animation: animatedBackground 10s linear infinite alternate;
+    
 }
 
 @keyframes animatedBackground {
@@ -95,3 +89,117 @@ h1 {
       background-position: 100% 0;
     }
   }
+
+
+
+  h1 {
+    /* text-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    text-align: center;
+    font-size: 70px;
+  font-weight: 600;
+  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  min-height: 100vh;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #eff8e2;
+  --color-primary: #553c9a;
+  --color-secondary: #ee4b2b;
+  --color-tertiary: #00c2cb;
+  --color-quaternary: #553c9a;
+  --color-quinary: #553c9a;
+}
+
+.content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text_shadows {
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  color: var(--color-primary);
+  color: transparent;
+  background-color: white;
+  background-clip: text;
+  animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

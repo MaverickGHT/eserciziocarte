@@ -28,7 +28,7 @@ function Pokemon () {
     return (
         
         <div>
-            <div><Header/></div>
+            <div class="content"><Header/></div>
             {listaPokemon.map((elemento) =>{
                 return(
                 <div className="Card">
